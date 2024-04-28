@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    padding: 20px;
+    border: solid 2px grey;
+    
+}
+.main{
+    padding: 10px;
+    border: none;
+}
+.subdiv{
+    width: 500px;
+}
+.p-1{
+    margin-top: -20px;
+    padding-bottom: 20px;
+    margin-left: -20px;
+    color: red;
+}
+.s-1{
+    color: grey;
+    height: 30px;
+}

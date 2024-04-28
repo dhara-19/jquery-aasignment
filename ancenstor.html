@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="ancenstor.css">
+</head>
+
+
+<style>
+   
+</style>
+<body>
+
+        <div class="main">
+        <div> <p class="p-1">body (great-great-grandparent)</p>
+            <div class="subdiv"><p class="p-1">div (great-grandparent)</p>
+                <div><p class="p-1">ul (grandparent)</p>
+                    <div><p class="p-1">li (direct parent)</p>
+                        <div>
+                            <span class="s-1">
+                                span
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    
+    
+
+
+    <script>
+
+        $(document).ready(function(){
+            $("div").parents().css({border : "solid 2px red"})
+        })
+    </script>
+</body>
+</html>
